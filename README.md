@@ -52,7 +52,12 @@ Project Requirement
   <li> Authentication Using Laravel Web Gaurd : </li>
   <li>Admin Role Routes </li>
     <ul>
-      <li> admin/login and admin/registration after registration share email verification link </li>
+      <li> <b> Registration Fields </b> </li>
+      <li> Name : [ Validation Rules : Accept only strings and space, Required ] </li>
+      <li> Email : [ Validation Rules : Accept only valid email address, Required ] </li>
+      <li> Password : [ Validation Rules : Accept only valid password min 8 lenght with alphanumeric, Required ] </li>
+      <li> Confirm Password : [ Validation Rules : should be same as Password field, Required ] </li>
+      <li> Registration after registration share email verification link </li>
       <li> use migrations and make 5 dummy for Admin role using seeder </li>
       <li> follow laravel codeing standards </li>
       <li> seprate dashboard, table and model </li>
