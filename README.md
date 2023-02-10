@@ -4,16 +4,18 @@ Laravel  Breeze Multi-Auth using Web guard
 
 Server Requirements
 =====================================
-PHP Version => 7.4
-Laravel Version => 8
-MySQl => 5.7+
+<ul>
+  <li>PHP Version => 7.4</li>
+  <li>Laravel Version => 8</li>
+  <li>MySQl => 5.7+</li>
+</ul>
 
 Setup Basic Commands
 =====================================
 1) git clone repository_url
 2) cd laravel-breeze-web-guard-email-verification
 3) composer update
-4) configure .env database connection
+4) create database and configure .env database connection
 5) php artisan migrate
 6) php artisan db:seed
 7) php artisan serve
@@ -27,29 +29,23 @@ Auth Routes Details
 
 Credentials Details
 =====================================
-User Role
-Username : user@user.com
-Password : password
+<b>User Role</b>
+<ul>
+  <li>Username : user@user.com</li>
+  <li>Password : password</li>
+</ul>
 
-Admin Role
-Username : admin@admin.com
-Password : password
+<b>Admin Role</b>
+<ul>
+  <li>Username : admin@admin.com</li>
+  <li>Password : password</li>
+</ul>
 
 Project Requirement 
 =====================================
 1) Authentication Using Laravel Web Gaurd : 
-2) User login
- -> email :
- -> password :
- -> after login it will redirect to specific user dashboard
-3) User Register
- -> name :
- -> email :
- -> password :
- -> confirm password :
- -> after register it will redirect to specific user dashboard and auto login
-4) User Roles Middleware Authentication
+2) Admin Role Routes
 
-References Used To Develop : 
+References : 
 =====================================
 a) https://www.youtube.com/watch?v=yXjHYTFRTC8
