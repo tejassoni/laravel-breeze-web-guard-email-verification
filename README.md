@@ -50,24 +50,39 @@ Project Requirement
 =====================================
 <ol>
   <li> Authentication Using Laravel Web Gaurd : </li>
-  <li>Admin Role Routes </li>
+  <li>Admin Role Requirement </li>
     <ul>
-      <li> <b> Registration Fields </b> </li>
+      <li> <b> Admin Registration Fields </b> </li>
       <li> Name : [ Validation Rules : Accept only strings and space, Required ] </li>
       <li> Email : [ Validation Rules : Accept only valid email address, Required ] </li>
       <li> Password : [ Validation Rules : Accept only valid password min 8 lenght with alphanumeric, Required ] </li>
       <li> Confirm Password : [ Validation Rules : should be same as Password field, Required ] </li>
-      <li> Registration after registration share email verification link </li>
-      <li> use migrations and make 5 dummy for Admin role using seeder </li>
-      <li> follow laravel codeing standards </li>
-      <li> seprate dashboard, table and model </li>
+      <li> On Registration button click send email verification link to registered email address </li>
+      <li> Use migrations scrpits for tables </li>
+      <li> Generate 5 dummy sample for Admin role using Factory and Seeder </li>
+      <li> Follow PHP/Laravel code standards </li>
+      <li> Make Seprate dashboard view ,admin table and Admin model </li>
+      <li> <b> Admin Login Fields </b> </li>
+      <li> Email : [ Validation Rules : Accept only valid email address, Required ] </li>
+      <li> Password : [ Validation Rules : Accept only valid password min 8 length with alphanumeric, Required ] </li>
+      <li> On Login button click redirect to Admin dashboard page if credential is validated </li>
     </ul>
-  <li>User Role Routes</li>
+  <li>User Role Requirement</li>
       <ul>
-        <li> user/login and user/registrations after registration share email verification link </li>
-        <li>use migrations and make 5 dummy for User role using seeder</li>
-        <li>follow laravel codeing standards </li>
-        <li>seprate dashboard, table and model </li>
+          <li> <b> User Registration Fields </b> </li>
+          <li> Name : [ Validation Rules : Accept only strings and space, Required ] </li>
+          <li> Email : [ Validation Rules : Accept only valid email address, Required ] </li>
+          <li> Password : [ Validation Rules : Accept only valid password min 8 lenght with alphanumeric, Required ] </li>
+          <li> Confirm Password : [ Validation Rules : should be same as Password field, Required ] </li>
+          <li> On Registration button click send email verification link to registered email address </li>
+          <li> Use migrations scrpits for tables </li>
+          <li> Generate 5 dummy sample for User role using Factory and Seeder </li>
+          <li> Follow PHP/Laravel code standards </li>
+          <li> Make Seprate dashboard view ,user table and User model </li>
+          <li> <b> User Login Fields </b> </li>
+          <li> Email : [ Validation Rules : Accept only valid email address, Required ] </li>
+          <li> Password : [ Validation Rules : Accept only valid password min 8 length with alphanumeric, Required ] </li>
+          <li> On Login button click redirect to User home page if credential is validated </li>
       </ul>
 </ol>
   
