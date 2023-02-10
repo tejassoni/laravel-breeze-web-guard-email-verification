@@ -20,12 +20,17 @@ Setup Basic Commands
 6) php artisan db:seed
 7) php artisan serve
 
-Auth Routes Details
+Routes Lists
 =====================================
-1) User Login : http://127.0.0.1:8000/login
-2) User Register : http://127.0.0.1:8000/register
-3) Admin Login : http://127.0.0.1:8000/admin/login
-4) Admin Register : http://127.0.0.1:8000/admin/register
+<ol>
+  <li> Auth Routes </li>
+  <ul>
+    <li>User Login : http://127.0.0.1:8000/login </li>
+    <li>User Register : http://127.0.0.1:8000/register </li>
+    <li>Admin Login : http://127.0.0.1:8000/admin/login </li>
+    <li>Admin Register : http://127.0.0.1:8000/admin/register </li>
+  </ul>
+</ol>
 
 Credentials Details
 =====================================
@@ -43,9 +48,24 @@ Credentials Details
 
 Project Requirement 
 =====================================
-1) Authentication Using Laravel Web Gaurd : 
-2) Admin Role Routes
-
+<ol>
+  <li> Authentication Using Laravel Web Gaurd : </li>
+  <li>Admin Role Routes </li>
+    <ul>
+      <li> admin/login and admin/registration after registration share email verification link </li>
+      <li> use migrations and make 5 dummy for Admin role using seeder </li>
+      <li> follow laravel codeing standards </li>
+      <li> seprate dashboard, table and model </li>
+    </ul>
+  <li>User Role Routes</li>
+      <ul>
+        <li> user/login and user/registrations after registration share email verification link </li>
+        <li>use migrations and make 5 dummy for User role using seeder</li>
+        <li>follow laravel codeing standards </li>
+        <li>seprate dashboard, table and model </li>
+      </ul>
+</ol>
+  
 References : 
 =====================================
 a) https://www.youtube.com/watch?v=yXjHYTFRTC8
