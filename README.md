@@ -36,13 +36,13 @@ Credentials Details
 =====================================
 <b>User Role</b>
 <ul>
-  <li>Username : user@user.com</li>
+  <li>Username : user@yopmail.com</li>
   <li>Password : password</li>
 </ul>
 
 <b>Admin Role</b>
 <ul>
-  <li>Username : admin@admin.com</li>
+  <li>Username : admin@yopmail.com</li>
   <li>Password : password</li>
 </ul>
 
