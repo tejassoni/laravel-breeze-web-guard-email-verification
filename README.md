@@ -107,4 +107,10 @@ References :
 a) https://www.youtube.com/watch?v=yXjHYTFRTC8
 b) https://codeanddeploy.com/blog/laravel/how-to-implement-laravel-8-email-verification
 c) https://laravel.com/docs/10.x/verification
-d) 
+d) https://cerwyn.medium.com/laravel-ui-email-verification-part-i-f40079335e99
+e) https://www.youtube.com/watch?v=9aRyMYF0m64
+
+# Search Key
+<ol>
+  <li>KEY : VERIFYEMAIL</li>
+</ol>
