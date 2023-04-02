@@ -105,3 +105,6 @@ Project Requirement
 References : 
 =====================================
 a) https://www.youtube.com/watch?v=yXjHYTFRTC8
+b) https://codeanddeploy.com/blog/laravel/how-to-implement-laravel-8-email-verification
+c) https://laravel.com/docs/10.x/verification
+d) 

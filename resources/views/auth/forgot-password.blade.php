@@ -5,7 +5,7 @@
 
     <!-- Session Status -->
     <x-auth-session-status class="mb-4" :status="session('status')" />
-
+    <h2 class="text-4x1 font-bold text-center">User Forgot Password </h2>
     <form method="POST" action="{{ route('password.email') }}">
         @csrf
 

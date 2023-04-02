@@ -36,4 +36,4 @@ Route::get('/admin/dashboard', function () {
 
 
 
-require __DIR__.'/auth.php';
+require __DIR__.'/adminauth.php';

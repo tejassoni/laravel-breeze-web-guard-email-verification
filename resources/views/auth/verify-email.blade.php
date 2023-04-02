@@ -10,6 +10,7 @@
     @endif
 
     <div class="mt-4 flex items-center justify-between">
+        <h2 class="text-4x1 font-bold text-center">User Verify Email </h2>
         <form method="POST" action="{{ route('verification.send') }}">
             @csrf
 

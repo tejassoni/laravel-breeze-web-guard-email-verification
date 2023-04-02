@@ -2,7 +2,7 @@
     <div class="mb-4 text-sm text-gray-600">
         {{ __('This is a secure area of the application. Please confirm your password before continuing.') }}
     </div>
-
+    <h2 class="text-4x1 font-bold text-center">User Password Confirm </h2>
     <form method="POST" action="{{ route('password.confirm') }}">
         @csrf
 
